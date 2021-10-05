@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce10819/BruteForce10819.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce10819/BruteForce10819.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce1182/BruteForce1182.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce1182/BruteForce1182.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce14888/BruteForce14888.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce14888/BruteForce14888.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce14889/BruteForce14889.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce14889/BruteForce14889.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce15649/BruteForce15649.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce15649/BruteForce15649.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce15650/BruteForce15650.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce15650/BruteForce15650.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce15651/BruteForce15651.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce15651/BruteForce15651.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce15652/BruteForce15652.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce15652/BruteForce15652.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce1759/BruteForce1759.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce1759/BruteForce1759.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce6603/BruteForce6603.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce6603/BruteForce6603.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BruteForce/BruteForce9663/BruteForce9663.iml" filepath="$PROJECT_DIR$/BOJ/BruteForce/BruteForce9663/BruteForce9663.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Coding_Test.iml" filepath="$PROJECT_DIR$/Coding_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmers/FindPrimeNum/FindPrimeNum.iml" filepath="$PROJECT_DIR$/Programmers/FindPrimeNum/FindPrimeNum.iml" />
+    </modules>
+  </component>
+</project>

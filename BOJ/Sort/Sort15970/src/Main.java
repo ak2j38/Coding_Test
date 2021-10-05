@@ -35,7 +35,7 @@ public class Main {
     static void solve(){
         Arrays.sort(dots);
         System.out.println(Arrays.toString(dots));
-        for(int i=1; i<N; i++){
+        for(int i=1; i<N-1; i++){
             if(dots[i-1].color == dots[i].color){
                 sum += Math.min(Math.abs(dots[i-1].pos - dots[i].pos), Math.abs(dots[i+1].pos - dots[i].pos));
                 used[i] = true;
@@ -52,7 +52,8 @@ public class Main {
 
     static void input() throws IOException {
         //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader br = new BufferedReader(new FileReader(new File("/Users/woo-jinpark/Desktop/Park/05_Test/input/input.txt")));
+        //BufferedReader br = new BufferedReader(new FileReader(new File("/Users/woo-jinpark/Desktop/Park/05_Test/input/input.txt")));
+        BufferedReader br = new BufferedReader(new FileReader(new File("C:\\Users\\k2j38\\OneDrive\\Desktop\\Park\\99.ETC\\input.txt")));
 
         N = Integer.parseInt(br.readLine());
         dots = new Elem[N];

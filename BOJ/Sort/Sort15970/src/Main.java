@@ -4,7 +4,6 @@ import java.util.Arrays;
 public class Main {
     static int N, sum;
     static Elem[] dots;
-    static boolean[] used;
 
     static class Elem implements Comparable<Elem>{
         public int pos, color;
@@ -14,13 +13,7 @@ public class Main {
             if(color != other.color) return color-other.color;
             return pos- other.pos;
         }
-
-        @Override
-        public String toString(){
-            return pos+ " " + color;
-        }
     }
-
 
     public static void main(String[] args) {
         try {
@@ -34,19 +27,22 @@ public class Main {
 
     static void solve(){
         Arrays.sort(dots);
-        System.out.println(Arrays.toString(dots));
-        for(int i=1; i<N-1; i++){
-            if(dots[i-1].color == dots[i].color){
-                sum += Math.min(Math.abs(dots[i-1].pos - dots[i].pos), Math.abs(dots[i+1].pos - dots[i].pos));
-                used[i] = true;
+
+        for(int i=0; i<N; i++){
+            int prev=0, next=0;
+            if(i == 0){
+                sum += Math.abs(dots[i].pos - dots[i+1].pos);
+                continue;
             }
-        }
-        for(int i=N-2; i>1; i--){
-            if(dots[i].color == dots[i-1].color){
-                if(!used[i]){
-                    sum +=  Math.min(Math.abs(dots[i-1].pos - dots[i].pos), Math.abs(dots[i+1].pos - dots[i].pos));
-                }
+            if(i == N-1){
+                sum += Math.abs(dots[i].pos - dots[i-1].pos);
+                break;
             }
+            if(dots[i].color == dots[i-1].color) prev = Math.abs(dots[i].pos - dots[i-1].pos);
+            if(dots[i].color == dots[i+1].color) next = Math.abs(dots[i].pos - dots[i+1].pos);
+            if(prev ==  0) sum += next;
+            else if(next == 0) sum += prev;
+            else sum += Math.min(prev, next);
         }
     }
 
@@ -57,7 +53,6 @@ public class Main {
 
         N = Integer.parseInt(br.readLine());
         dots = new Elem[N];
-        used = new boolean[N];
         for(int i=0; i<N; i++){
             String[] split = br.readLine().split(" ");
             dots[i] = new Elem();
@@ -65,6 +60,4 @@ public class Main {
             dots[i].color = Integer.parseInt(split[1]);
         }
     }
-
-
 }

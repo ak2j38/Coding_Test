@@ -3,7 +3,7 @@ import java.io.*;
 public class Main {
     static StringBuilder sb = new StringBuilder();
     static int N, M=6;           // 입력값, 뽑을 갯수
-    static int[] nums, selected; // 입력받은 숫자배열(N+1), 조합 반복문을 위한 배열
+    static int[] nums;           // 입력받은 숫자배열(N+1)
     static boolean[] visited;    // 뽑은 여부
 
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    static void rec_func(int k){
+    static void rec_func(int k, int start){
         if(k == M+1){
             for(int i=1; i<=N; i++){
                 if(visited[i])
@@ -23,11 +23,11 @@ public class Main {
             }
             sb.append("\n");
         }else{
-            for(int cand=selected[k-1]+1; cand<=N; cand++){
+            for(int cand=start; cand<=N; cand++){
                 if(visited[cand]) continue;
-                visited[cand] = true; selected[k] = cand;
-                rec_func(k+1);
-                visited[cand] = false; selected[k] = 0;
+                visited[cand] = true;
+                rec_func(k+1, cand+1);
+                visited[cand] = false;
             }
         }
     }
@@ -41,9 +41,10 @@ public class Main {
             if(nextLine.equals("0")) break;
             String[] split = nextLine.split(" ");
             N = Integer.parseInt(split[0]);
-            nums = new int[N+1]; selected = new int[N+1]; visited = new boolean[N+1];
+            nums = new int[N+1];
+            visited = new boolean[N+1];
             for(int i=1; i<=N; i++) nums[i] = Integer.parseInt(split[i]);
-            rec_func(1);
+            rec_func(1, 1);
             sb.append("\n");
         }
     }

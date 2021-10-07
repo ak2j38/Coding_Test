@@ -15,7 +15,7 @@ public class Solution implements Comparable<int>{
         System.out.println(Arrays.toString(citations));
 
         // 각 수에 대해서 전체반복한다
-        // 변수 hIndex, 이상인용, 이하인용
+        // 변수 hIndex, 이상인용(plus), 이하인용(minus)
         for(int i=0; i<citations.length; i++){
             int plus=0, minus=0;
             for(int j=0; j<citations.length; j++){

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1654/BS1654.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1654/BS1654.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1764/BS1764.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1764/BS1764.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1920/BS1920.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1920/BS1920.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS3273/BS3273.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS3273/BS3273.iml" />

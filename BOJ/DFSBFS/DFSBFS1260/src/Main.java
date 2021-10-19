@@ -61,6 +61,37 @@ public class Main {
         }
     }
 
+    static void dfs2(int x){
+        visit[x] = true;
+        sb.append(x).append(" ");
+
+        for(int y=1; y<=N; y++){
+            if(adj[x][y] == 0) continue;
+            if(visit[y]) continue;
+
+            dfs2(y);
+        }
+    }
+
+    static void bfs2(int start){
+        Queue<Integer> que = new LinkedList<>();
+        que.add(start);
+        visit[start] = true;
+
+        while(!que.isEmpty()){
+            int x = que.poll();
+            sb.append(x).append(" ");
+
+            for(int y=1; y<=N; y++){
+                if(adj[x][y] == 0) continue;
+                if(visit[y]) continue;
+
+                que.add(y);
+                visit[y] = true;
+            }
+        }
+    }
+
     static void input() throws IOException{
         //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new FileReader(new File("/Users/woo-jinpark/Desktop/Park/05_Test/input/input.txt")));

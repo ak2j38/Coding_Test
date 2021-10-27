@@ -36,8 +36,8 @@ public class Main {
         Queue<Integer> que = new LinkedList<>();
 
         // 모든점을 순회하면서 바이러스의 위치를 큐에 넣어놓는다(MultiSource BFS)
-        for(int i=0; i<N; i++){
-            for(int j=0; j<M; j++){
+        for(int i=1; i<=N; i++){
+            for(int j=1; j<=M; j++){
                 visit[i][j] = false;
                 if(adj[i][j] == 2){
                     // 행, 열 순서로 넣어놓으면 뺄 때도 같은 순서로 빼서 사용 가능
@@ -53,7 +53,7 @@ public class Main {
             for(int k=0; k<4; k++){
                 int nx = x + dir[k][0];
                 int ny = y + dir[k][1];
-                if(nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
+                if(nx < 1 || ny < 1 || nx > N || ny > M) continue;
                 if(adj[nx][ny] != 0) continue;
                 if(visit[nx][ny]) continue;
 
@@ -64,8 +64,8 @@ public class Main {
         }
         // answer값 갱신
         int cnt = 0;
-        for(int i=0; i<N; i++){
-            for(int j=0; j<M; j++){
+        for(int i=1; i<=N; i++){
+            for(int j=1; j<=M; j++){
                 if(adj[i][j] == 0 && !visit[i][j]) cnt++;
             }
         }
@@ -74,18 +74,18 @@ public class Main {
 
     static void solve(){
         // 벽을 세우기 위해 벽들의 위치를 미리 모아놓는다
-        for(int i=0; i<N; i++){
-            for(int j=0; j<M; j++){
+        for(int i=1; i<=N; i++){
+            for(int j=1; j<=M; j++){
                 if(adj[i][j] == 0){
+                    B++;
                     blank[B][0] = i;
                     blank[B][1] = j;
-                    B++;
                 }
             }
         }
 
         // 먼저 dfs를 통해 3개의 벽을 세우는 것 처리
-        dfs(0, 0);
+        dfs(1, 0);
         // 안전지역 갯수 출력(answer)
         System.out.println(answer);
     }
@@ -99,13 +99,13 @@ public class Main {
         M = Integer.parseInt(split[1]);
         B = 0;
         answer = Integer.MIN_VALUE;
-        adj = new int[N][M];
-        visit = new boolean[N][M];
-        blank = new int[N*M][2];
-        for(int i=0; i<N; i++){
+        adj = new int[N+1][M+1];
+        visit = new boolean[N+1][M+1];
+        blank = new int[N*M+1][2];
+        for(int i=1; i<=N; i++){
             split = br.readLine().split(" ");
-            for(int j=0; j<M; j++){
-                adj[i][j] = Integer.parseInt(split[j]);
+            for(int j=1; j<=M; j++){
+                adj[i][j] = Integer.parseInt(split[j-1]);
             }
         }
     }

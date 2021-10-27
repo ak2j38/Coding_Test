@@ -3,36 +3,43 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Main {
-    static int N, M, answer, min;
-    static int[][] adj;
-    static boolean[] visit;
+    static int N, M, answer;
+    static int[][] adj, dir = {{1,0},{0,1},{-1,0},{0,-1}};
+    static boolean[][] visit;
 
     public static void main(String[] args) {
         try {
             input();
-            bfs(0);
-            System.out.println(min);
+            bfs(0, 0);
+            System.out.println(adj[N-1][M-1]);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    static void bfs(int startx){
+    static void bfs(int startx, int starty){
         Queue<Integer> que = new LinkedList<>();
 
         que.add(startx);
-        visit[startx] = true;
+        que.add(starty);
+        visit[startx][starty] = true;
 
         while(!que.isEmpty()){
             int x = que.poll();
-            answer++;
+            int y = que.poll();
 
-            for(int y=0; y<M; y++){
-                if(adj[x][y] == 0) continue;
-                if(visit[y]) continue;
+            for(int k=0; k<4; k++){
+                int nx = x + dir[k][0];
+                int ny = y + dir[k][1];
 
-                que.add(y);
-                visit[y] = true;
+                if(nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
+                if (adj[nx][ny] == 0) continue;
+                if (visit[nx][ny]) continue;
+
+                que.add(nx);
+                que.add(ny);
+                visit[nx][ny] = true;
+                adj[nx][ny] = adj[x][y]+1;
             }
         }
     }
@@ -46,8 +53,7 @@ public class Main {
         N = Integer.parseInt(split[0]);
         M = Integer.parseInt(split[1]);
         answer = 0;
-        min = Integer.MAX_VALUE;
-        visit = new boolean[M];
+        visit = new boolean[N][M];
         adj = new int[N][M];
         for(int i=0; i<N; i++){
             split = br.readLine().split("");

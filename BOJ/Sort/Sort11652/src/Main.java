@@ -12,8 +12,8 @@ public class Main {
         @Override
         public int compareTo(Elem other){
             if(cnt != other.cnt) return other.cnt - cnt;
-            if(num-other.num > 0) return 1;
-            else if(num-other.num < 0) return -1;
+            if((Long)(num-other.num) > 0) return 1;
+            else if((Long)(num-other.num) < 0) return -1;
             else return 0;
         }
     }

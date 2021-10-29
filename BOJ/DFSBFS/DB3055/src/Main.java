@@ -29,13 +29,14 @@ public class Main {
     static void bfsWater(){
         Queue<Integer> que1 = new LinkedList<>();
 
-        int length = waterFall.size()/2;
+        int length = waterFall.size();
         if(length == 0){
             for(int i=0; i<N; i++){
                 for(int j=0; j<M; j++)
                     adjWater[i][j] = Integer.MAX_VALUE;
             }
         }
+
         for(int i=0; i<length; i=i+2){
             que1.add(waterFall.get(i));
             que1.add(waterFall.get(i+1));
@@ -78,9 +79,9 @@ public class Main {
                 int ny = y + dir[k][1];
 
                 if(nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
-                if(vill[nx][ny].equals("*") || vill[nx][ny].equals("X")) continue;
                 if(visitGo[nx][ny]) continue;
-                if(adjWater[nx][ny] <= adjGo[x][y] + 1 && !vill[nx][ny].equals("D")) continue;
+                if(vill[nx][ny].equals("*") || vill[nx][ny].equals("X")) continue;
+                if(adjWater[nx][ny] <= adjGo[x][y] + 1 && !vill[nx][ny].equals("D") && adjWater[nx][ny] != 0) continue;
 
                 que.add(nx);
                 que.add(ny);

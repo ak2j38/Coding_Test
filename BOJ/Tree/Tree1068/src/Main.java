@@ -9,24 +9,27 @@ public class Main {
         try {
             input();
             delNode(DEL);
+            delNode2();
             solve();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+    static void delNode2(){
+        // 자식으로 남아있는 것 지우기
+        for(ArrayList<Integer> a : adj){
+            if(a == null) continue;
+            if(a.contains(DEL)) a.remove(Integer.valueOf(DEL));
+        }
+    }
+
     static void delNode(int delNode){
         // 해당 노드가 지워지면 자식노드들도 전부 삭제된다
         for(int node : adj[delNode]){
-
             delNode(node);
         }
-//        for(ArrayList<Integer> a : adj){
-//            if(a == null) continue;
-//            if(a.contains(delNode)) a.remove(Integer.valueOf(delNode));
-//        }
         adj[delNode] = null;
-
     }
 
     static void solve(){
@@ -41,7 +44,8 @@ public class Main {
 
     static void input() throws IOException{
         //BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedReader br = new BufferedReader(new FileReader(new File("/Users/woo-jinpark/Desktop/Park/05_Test/input/input.txt")));
+        //BufferedReader br = new BufferedReader(new FileReader(new File("/Users/woo-jinpark/Desktop/Park/05_Test/input/input.txt")));
+        BufferedReader br = new BufferedReader(new FileReader(new File("C:\\Users\\k2j38\\OneDrive\\Desktop\\Park\\99.ETC\\input.txt")));
 
         N = Integer.parseInt(br.readLine());
         adj = new ArrayList[N];

@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class Main {
     static int N, M;
-    static int[][] cnt;
+    static int[][] cnt; // x를 만드는 데 필요한 y 갯수
     static int[] indeg;
     static ArrayList<Part>[] adj;
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS10815/BS10815.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS10815/BS10815.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS12015/BS12015.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS12015/BS12015.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1300/BS1300.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1300/BS1300.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1654/BS1654.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1654/BS1654.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1764/BS1764.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1764/BS1764.iml" />

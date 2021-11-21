@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS1072_게임/BS1072_게임.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS1072_게임/BS1072_게임.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS10815/BS10815.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS10815/BS10815.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS10816/BS10816.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/BinarySearch/BS12015/BS12015.iml" filepath="$PROJECT_DIR$/BOJ/BinarySearch/BS12015/BS12015.iml" />

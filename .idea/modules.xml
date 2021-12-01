@@ -62,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/BOJ/DP/DP9095_123더하기/DP9095_123더하기.iml" filepath="$PROJECT_DIR$/BOJ/DP/DP9095_123더하기/DP9095_123더하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DP/DP9465_스티커/DP9465_스티커.iml" filepath="$PROJECT_DIR$/BOJ/DP/DP9465_스티커/DP9465_스티커.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/FindPrimeNum/FindPrimeNum.iml" filepath="$PROJECT_DIR$/Programmers/FindPrimeNum/FindPrimeNum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/Greedy/GD1026_보물/GD1026_보물.iml" filepath="$PROJECT_DIR$/BOJ/Greedy/GD1026_보물/GD1026_보물.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/H_Index/H_Index.iml" filepath="$PROJECT_DIR$/Programmers/H_Index/H_Index.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im14503/IMm14503.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im14503/IMm14503.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im14503/Im14503.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im14503/Im14503.iml" />
@@ -103,6 +104,7 @@
       <module fileurl="file://$PROJECT_DIR$/BOJ/Tree/Tree11725/Tree11725.iml" filepath="$PROJECT_DIR$/BOJ/Tree/Tree11725/Tree11725.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Tree/Tree1991/Tree1991.iml" filepath="$PROJECT_DIR$/BOJ/Tree/Tree1991/Tree1991.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Tree/Tree5639/Tree5639.iml" filepath="$PROJECT_DIR$/BOJ/Tree/Tree5639/Tree5639.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH03_Greedy/ch03_greedy_큰수의법칙/ch03_greedy_큰수의법칙.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH03_Greedy/ch03_greedy_큰수의법칙/ch03_greedy_큰수의법칙.iml" />
     </modules>
   </component>
 </project>

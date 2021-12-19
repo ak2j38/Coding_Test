@@ -121,6 +121,8 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_게임개발/ch04_imple_게임개발.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_게임개발/ch04_imple_게임개발.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_상하좌우/ch04_imple_상하좌우.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_상하좌우/ch04_imple_상하좌우.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_왕실의나이트/ch04_imple_왕실의나이트.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH04_Implementaion/ch04_imple_왕실의나이트/ch04_imple_왕실의나이트.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH05_DFSBFS/ch05_db_미로탈출/ch05_db_미로탈출.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH05_DFSBFS/ch05_db_미로탈출/ch05_db_미로탈출.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH05_DFSBFS/ch05_db_음료수얼려먹기/ch05_db_음료수얼려먹기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH05_DFSBFS/ch05_db_음료수얼려먹기/ch05_db_음료수얼려먹기.iml" />
     </modules>
   </component>
 </project>

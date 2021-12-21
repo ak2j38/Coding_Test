@@ -126,6 +126,8 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_두배열의원소교체/ch06_sort_두배열의원소교체.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_두배열의원소교체/ch06_sort_두배열의원소교체.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_성적이낮은순서로학생출력하기/ch06_sort_성적이낮은순서로학생출력하기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_성적이낮은순서로학생출력하기/ch06_sort_성적이낮은순서로학생출력하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_위에서아래로/ch06_sort_위에서아래로.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH06_SORT/ch06_sort_위에서아래로/ch06_sort_위에서아래로.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_떡볶이떡만들기/ch07_bs_떡볶이떡만들기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_떡볶이떡만들기/ch07_bs_떡볶이떡만들기.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_부품찾기/ch07_bs_부품찾기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_부품찾기/ch07_bs_부품찾기.iml" />
     </modules>
   </component>
 </project>

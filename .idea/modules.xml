@@ -130,6 +130,8 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_부품찾기/ch07_bs_부품찾기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH07_BinarySerach/ch07_bs_부품찾기/ch07_bs_부품찾기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_1로만들기/ch08_dp_1로만들기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_1로만들기/ch08_dp_1로만들기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_개미전사/ch08_dp_개미전사.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_개미전사/ch08_dp_개미전사.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_바닥공사/ch08_dp_바닥공사.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_바닥공사/ch08_dp_바닥공사.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_효율적인화폐구성/ch08_dp_효율적인화폐구성.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_효율적인화폐구성/ch08_dp_효율적인화폐구성.iml" />
     </modules>
   </component>
 </project>

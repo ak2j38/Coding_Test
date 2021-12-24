@@ -132,6 +132,7 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_개미전사/ch08_dp_개미전사.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_개미전사/ch08_dp_개미전사.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_바닥공사/ch08_dp_바닥공사.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_바닥공사/ch08_dp_바닥공사.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_효율적인화폐구성/ch08_dp_효율적인화폐구성.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH08_DP/ch08_dp_효율적인화폐구성/ch08_dp_효율적인화폐구성.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH09_ShortestPath/ch09_sp_전보/ch09_sp_전보.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH09_ShortestPath/ch09_sp_전보/ch09_sp_전보.iml" />
     </modules>
   </component>
 </project>

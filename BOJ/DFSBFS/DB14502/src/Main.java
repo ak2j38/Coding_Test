@@ -73,7 +73,7 @@ public class Main {
     }
 
     static void solve(){
-        // 벽을 세우기 위해 벽들의 위치를 미리 모아놓는다
+        // 벽을 세우기 위해 공간들의 위치를 미리 모아놓는다
         for(int i=1; i<=N; i++){
             for(int j=1; j<=M; j++){
                 if(adj[i][j] == 0){

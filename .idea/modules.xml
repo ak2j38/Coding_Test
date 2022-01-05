@@ -68,7 +68,11 @@
       <module fileurl="file://$PROJECT_DIR$/Programmers/H_Index/H_Index.iml" filepath="$PROJECT_DIR$/Programmers/H_Index/H_Index.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im14503/IMm14503.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im14503/IMm14503.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im1000_A+B/Im1000_A+B.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im1000_A+B/Im1000_A+B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im1009_분산처리/Im1009_분산처리.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im1009_분산처리/Im1009_분산처리.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im10250_ACM호텔/Im10250_ACM호텔.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im10250_ACM호텔/Im10250_ACM호텔.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im1052_물병/Im1052_물병.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im1052_물병/Im1052_물병.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im10757_큰수/Im10757_큰수.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im10757_큰수/Im10757_큰수.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im1076_저항/Im1076_저항.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im1076_저항/Im1076_저항.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im1157_단어공부/Im1157_단어공부.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im1157_단어공부/Im1157_단어공부.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im13274_수열/Im13274_수열.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im13274_수열/Im13274_수열.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/Implementation/Im14503/Im14503.iml" filepath="$PROJECT_DIR$/BOJ/Implementation/Im14503/Im14503.iml" />
@@ -148,6 +152,7 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH13_DFSBFS/ch13_db_특정거리의도시찾기/ch13_db_특정거리의도시찾기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH13_DFSBFS/ch13_db_특정거리의도시찾기/ch13_db_특정거리의도시찾기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH14_Sort/ch14_sort_국영수/ch14_sort_국영수.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH14_Sort/ch14_sort_국영수/ch14_sort_국영수.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH14_Sort/ch14_sort_안테나/ch14_sort_안테나.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH14_Sort/ch14_sort_안테나/ch14_sort_안테나.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_고정점찾기/ch15_bs_고정점찾기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_고정점찾기/ch15_bs_고정점찾기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_정렬된배열에서특정수의개수구하기/ch15_bs_정렬된배열에서특정수의개수구하기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_정렬된배열에서특정수의개수구하기/ch15_bs_정렬된배열에서특정수의개수구하기.iml" />
     </modules>
   </component>

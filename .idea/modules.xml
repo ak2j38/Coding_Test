@@ -156,6 +156,12 @@
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_정렬된배열에서특정수의개수구하기/ch15_bs_정렬된배열에서특정수의개수구하기.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH15_BinarySearch/ch15_bs_정렬된배열에서특정수의개수구하기/ch15_bs_정렬된배열에서특정수의개수구하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH16_DP/ch16_dp_금광/ch16_dp_금광.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH16_DP/ch16_dp_금광/ch16_dp_금광.iml" />
       <module fileurl="file://$PROJECT_DIR$/ThisisCodingTest/CH16_DP/ch16_dp_정수삼각형/ch16_dp_정수삼각형.iml" filepath="$PROJECT_DIR$/ThisisCodingTest/CH16_DP/ch16_dp_정수삼각형/ch16_dp_정수삼각형.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_141_LinkedListCycle/lc_141_LinkedListCycle.iml" filepath="$PROJECT_DIR$/LeetCode/lc_141_LinkedListCycle/lc_141_LinkedListCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_14_LongestCommonPrefix/lc_14_LongestCommonPrefix.iml" filepath="$PROJECT_DIR$/LeetCode/lc_14_LongestCommonPrefix/lc_14_LongestCommonPrefix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_1_TwoSum/lc_1_TwoSum.iml" filepath="$PROJECT_DIR$/LeetCode/lc_1_TwoSum/lc_1_TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_7_ReverseInteger/lc_7_ReverseInteger.iml" filepath="$PROJECT_DIR$/LeetCode/lc_7_ReverseInteger/lc_7_ReverseInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_83_RemoveDuplicatesFromSortedList/lc_83_RemoveDuplicatesFromSortedList.iml" filepath="$PROJECT_DIR$/LeetCode/lc_83_RemoveDuplicatesFromSortedList/lc_83_RemoveDuplicatesFromSortedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_9_PalindromeNumber/lc_9_PalindromeNumber.iml" filepath="$PROJECT_DIR$/LeetCode/lc_9_PalindromeNumber/lc_9_PalindromeNumber.iml" />
     </modules>
   </component>
 </project>

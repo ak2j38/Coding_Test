@@ -177,6 +177,10 @@
       <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_7_ReverseInteger/lc_7_ReverseInteger.iml" filepath="$PROJECT_DIR$/LeetCode/lc_7_ReverseInteger/lc_7_ReverseInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_83_RemoveDuplicatesFromSortedList/lc_83_RemoveDuplicatesFromSortedList.iml" filepath="$PROJECT_DIR$/LeetCode/lc_83_RemoveDuplicatesFromSortedList/lc_83_RemoveDuplicatesFromSortedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/lc_9_PalindromeNumber/lc_9_PalindromeNumber.iml" filepath="$PROJECT_DIR$/LeetCode/lc_9_PalindromeNumber/lc_9_PalindromeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/solu_DiagonalDifference/solu_DiagonalDifference.iml" filepath="$PROJECT_DIR$/HackerRank/solu_DiagonalDifference/solu_DiagonalDifference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/solu_NumberLineJumps/solu_NumberLineJumps.iml" filepath="$PROJECT_DIR$/HackerRank/solu_NumberLineJumps/solu_NumberLineJumps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/solu_SaveThePrisoner/solu_SaveThePrisoner.iml" filepath="$PROJECT_DIR$/HackerRank/solu_SaveThePrisoner/solu_SaveThePrisoner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/solu_TimeConversion/solu_TimeConversion.iml" filepath="$PROJECT_DIR$/HackerRank/solu_TimeConversion/solu_TimeConversion.iml" />
     </modules>
   </component>
 </project>

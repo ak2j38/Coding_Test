@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/BOJ/DFSBFS/DB4963/DB4963.iml" filepath="$PROJECT_DIR$/BOJ/DFSBFS/DB4963/DB4963.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DFSBFS/DB7562/DB7562.iml" filepath="$PROJECT_DIR$/BOJ/DFSBFS/DB7562/DB7562.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DFSBFS/DB7569/DB7569.iml" filepath="$PROJECT_DIR$/BOJ/DFSBFS/DB7569/DB7569.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BOJ/DFSBFS/DB_10026_적록색약/DB_10026_적록색약.iml" filepath="$PROJECT_DIR$/BOJ/DFSBFS/DB_10026_적록색약/DB_10026_적록색약.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DFSBFS/DFSBFS1260/DFSBFS1260.iml" filepath="$PROJECT_DIR$/BOJ/DFSBFS/DFSBFS1260/DFSBFS1260.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DP/DP1003_피보나치함수/DP1003_피보나치함수.iml" filepath="$PROJECT_DIR$/BOJ/DP/DP1003_피보나치함수/DP1003_피보나치함수.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOJ/DP/DP10870_피보나치수5/DP10870_피보나치수5.iml" filepath="$PROJECT_DIR$/BOJ/DP/DP10870_피보나치수5/DP10870_피보나치수5.iml" />
@@ -86,8 +87,10 @@
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_K번째수/Pro_K번째수.iml" filepath="$PROJECT_DIR$/Programmers/Pro_K번째수/Pro_K번째수.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_로또의최고순위와최저순위/Pro_로또의최고순위와최저순위.iml" filepath="$PROJECT_DIR$/Programmers/Pro_로또의최고순위와최저순위/Pro_로또의최고순위와최저순위.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_모의고사/Pro_모의고사.iml" filepath="$PROJECT_DIR$/Programmers/Pro_모의고사/Pro_모의고사.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_숫자문자열과영단어/Pro_숫자문자열과영단어.iml" filepath="$PROJECT_DIR$/Programmers/Pro_숫자문자열과영단어/Pro_숫자문자열과영단어.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_신고결과받기/Pro_신고결과받기.iml" filepath="$PROJECT_DIR$/Programmers/Pro_신고결과받기/Pro_신고결과받기.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_신규아이디추천/Pro_신규아이디추천.iml" filepath="$PROJECT_DIR$/Programmers/Pro_신규아이디추천/Pro_신규아이디추천.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_음양더하기/Pro_음양더하기.iml" filepath="$PROJECT_DIR$/Programmers/Pro_음양더하기/Pro_음양더하기.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_이상한문자만들기/Pro_이상한문자만들기.iml" filepath="$PROJECT_DIR$/Programmers/Pro_이상한문자만들기/Pro_이상한문자만들기.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_크레인인형뽑기/Pro_크레인인형뽑기.iml" filepath="$PROJECT_DIR$/Programmers/Pro_크레인인형뽑기/Pro_크레인인형뽑기.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmers/Pro_키패드누르기/Pro_키패드누르기.iml" filepath="$PROJECT_DIR$/Programmers/Pro_키패드누르기/Pro_키패드누르기.iml" />
